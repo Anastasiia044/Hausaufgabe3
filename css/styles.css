@@ -38,7 +38,6 @@ background-color:#fff ;
 }
 .header-menu {
     display: flex;
-        align-items: flex-start;
         justify-content: flex-start;
         color: #2e2f42;
     }
@@ -57,10 +56,13 @@ background-color:#fff ;
 .header-menu-link{
     color: #2e2f42;
 }
-.address {
+address.contacts {
     font-style: normal;
 }
-.contacts-mail:hover, .contacts-mail:focus {
+.contacts-mail:hover{
+    color: #404bbf;
+} 
+.contacts-mail:focus {
     color: #404bbf;
 }
 .contacts-mail {
