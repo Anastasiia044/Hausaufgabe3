@@ -10,11 +10,19 @@ background-color:#fff ;
         text-decoration: none;
     }
     .button{
-        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            color: #fff;
+            background-color: #4d5ae5;
     }
-    .button:hover, .button:focus{
+    .button:hover{
         background-color: #404BBF;
     }
+    
     
 .accent {color: #2e2f42;} 
 .accent-two{color: #f4f4fd;}
@@ -77,7 +85,7 @@ background-color:#fff ;
         letter-spacing: 0.04em;
         cursor: pointer;
         color: #fff;
-        background-color: #4D5AE5;
+        background-color: #4d5ae5;
 }
 .taste:hover, .taste:focus {
 background-color: #404BBF;
@@ -117,7 +125,9 @@ background-color: #404BBF;
         color: #2e2f42;
         background-color: #FFFFFF;
 }
-
+.liste-drite-teil{
+    background-color: #FFFFFF;
+}
 .titel-drei-teil {
     font-weight: 500;
         font-size: 20px;
