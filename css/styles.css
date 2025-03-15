@@ -40,6 +40,7 @@ background-color:#fff ;
     display: flex;
         align-items: flex-start;
         justify-content: flex-start;
+        color: #2e2f42;
     }
 
 
@@ -50,16 +51,16 @@ background-color:#fff ;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-menu-link:hover, .header-menu-link:focus {
+.header-menu-item:hover, .header-menu-item:focus {
     color: #404bbf;
 }
 .header-menu-link{
     color: #2e2f42;
 }
-.contscts {
+.address {
     font-style: normal;
 }
-.contacts-mail, .contacts-mail:focus {
+.contacts-mail:hover, .contacts-mail:focus {
     color: #404bbf;
 }
 .contacts-mail {
