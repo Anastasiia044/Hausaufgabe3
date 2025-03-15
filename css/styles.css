@@ -37,7 +37,6 @@ background-color:#fff ;
         color: #4d5ae5;
 }
 .header-menu {
-    display: flex;
         justify-content: flex-start;
         color: #2e2f42;
     }
