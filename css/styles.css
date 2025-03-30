@@ -156,7 +156,6 @@ address {
 background-color: #404BBF;
 }
 .zweite-teil {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 
@@ -207,6 +206,7 @@ padding-right: 156px;
         background-color: #FFFFFF;
         margin: 0 auto;
         margin-bottom: 72px;
+        padding-top: 120px;
 }
 .liste-drite-teil {
     background-color: #FFFFFF;
@@ -233,7 +233,9 @@ padding-right: 156px;
         text-align: center;
         color: #434455;
 }
-.vierte-teil {}
+.vierte-teil {
+    padding: 120px 156px;
+}
 
 .vierte-teil-list {
     display: flex;
@@ -249,6 +251,7 @@ padding-right: 156px;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        padding-top: 120px;
 }
 .vierte-list {
     display: flex;
@@ -281,4 +284,6 @@ padding-right: 156px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         display: flex;
+        width: 264px;
+        height: 112px;
 }
