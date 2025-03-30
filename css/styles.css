@@ -5,10 +5,13 @@ background-color:#fff ;
     }
     ul {
         list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
     a {
         text-decoration: none;
     }
+
     .button{
         font-family: "Roboto", sans-serif;
             font-weight: 500;
@@ -22,10 +25,37 @@ background-color:#fff ;
     .button:hover{
         background-color: #404BBF;
     }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+
+    .container {
+        width: 1128px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
     
     
 .accent {color: #2e2f42;} 
 .accent-two{color: #f4f4fd;}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-novigation {
+display: flex;
+justify-content: space-between;
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -35,9 +65,13 @@ background-color:#fff ;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 .header-menu {
-        justify-content: flex-start;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-start;
+    gap: 40px;
         color: #2e2f42;
     }
 
@@ -77,8 +111,22 @@ address {
         color: #434455;
 }
 
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+
 .erste-teil {
-    background-color: #2e2f42;: ;
+    background-color: #2e2f42;
+    margin: 120px;
+}
+.erste-teil-wrapper {
+    padding: 188px 292px 472px 472px;
 }
 
 .titel-one {
@@ -88,10 +136,14 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        min-width: 496px;
+        margin: 0 auto;
 }
 
 .taste {
      font-family: "Roboto",sans-serif;
+     width: 169px;
+     height: 56px;
      font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -104,10 +156,19 @@ address {
 background-color: #404BBF;
 }
 .zweite-teil {
-    
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
+.zweite-teil-list {
+    display: flex;
+    gap: 24px;
+padding-left: 156px;
+padding-right: 156px;
+}
+
 .box-zweite-teil{
-    
+    flex-basis: calc((100% - 52px) / 4);
 }
 
 .titel-zweite-teil {
@@ -116,6 +177,7 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .text-zweite-teil {
@@ -128,6 +190,12 @@ background-color: #404BBF;
     background-color: #f4f4fd;
 }
 
+.drite-teil-list {
+    display: flex;
+    gap: 24px;
+
+}
+
 .titel-drei {
     font-weight: 700;
         font-size: 36px;
@@ -137,9 +205,15 @@ background-color: #404BBF;
         text-transform: capitalize;
         color: #2e2f42;
         background-color: #FFFFFF;
+        margin: 0 auto;
+        margin-bottom: 72px;
 }
 .liste-drite-teil {
     background-color: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px 0px;
+        width: 264px;
+        height: 380px;
 }
 .titel-drei-teil {
     font-weight: 500;
@@ -149,6 +223,7 @@ background-color: #404BBF;
         text-align: center;
         color: #2e2f42;
         background-color: #FFFFFF;
+        flex-basis: calc((100% - 52px) / 4);
 }
 
 .text-drite-teil {
@@ -160,6 +235,12 @@ background-color: #404BBF;
 }
 .vierte-teil {}
 
+.vierte-teil-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
 .titel-vier {
     font-weight: 700;
         font-size: 36px;
@@ -168,6 +249,12 @@ background-color: #404BBF;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+}
+.vierte-list {
+    display: flex;
+    border: 1px solid #e7e9fc;
+        width: 360px;
+        height: 420px;
 }
 
 .titel-vierte-teil {
@@ -193,4 +280,5 @@ background-color: #404BBF;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        display: flex;
 }
