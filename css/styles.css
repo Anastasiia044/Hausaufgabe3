@@ -26,6 +26,10 @@ background-color:#fff ;
         background-color: #404BBF;
     }
 
+    .img {
+        display: block;
+    }
+
     p,
     h1,
     h2,
@@ -36,13 +40,20 @@ background-color:#fff ;
         margin: 0;
     }
 
+    .teil-header {
+        border-bottom: 1px solid #e7e9fc;
+    }
+
     .container {
-        width: 1128px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
     }
     
+    .head-container {
+        display: flex;
+    }
     
 .accent {color: #2e2f42;} 
 .accent-two{color: #f4f4fd;}
@@ -55,6 +66,7 @@ background-color:#fff ;
 .header-novigation {
 display: flex;
 justify-content: space-between;
+align-items: center;
 }
 
 .header-logo {
@@ -156,7 +168,7 @@ address {
 background-color: #404BBF;
 }
 .zweite-teil {
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .zweite-teil-list {
@@ -167,7 +179,7 @@ padding-right: 156px;
 }
 
 .box-zweite-teil{
-    flex-basis: calc((100% - 52px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .titel-zweite-teil {
@@ -270,11 +282,15 @@ padding-right: 156px;
         letter-spacing: 0.02em;
         color: #434455;
         border: 1px solid #e7e9fc;
-            width: 360px;
-            height: 420px;
 }
 .ende-teil {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.header-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .text-ende-teil {
