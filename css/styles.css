@@ -136,20 +136,17 @@ address {
 
 .erste-teil {
     background-color: #2e2f42;
-    margin: 120px;
-    padding: 188px 292px 472px 472px;
 }
 
 
 .titel-one {
-    font-weight: 700px;
+    font-weight: 700;
     max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        min-width: 496px;
         margin: 0 auto;
 }
 
@@ -173,6 +170,19 @@ background-color: #404BBF;
 }
 .zweite-teil {
     padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 .zweite-teil-list {
