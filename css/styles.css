@@ -26,7 +26,7 @@ background-color:#fff ;
         background-color: #404BBF;
     }
 
-    .img {
+    img {
         display: block;
     }
 
@@ -84,6 +84,7 @@ align-items: center;
     margin-left: auto;
     justify-content: flex-start;
     gap: 40px;
+    padding: 24px 0;
         color: #2e2f42;
     }
 
@@ -136,13 +137,13 @@ address {
 .erste-teil {
     background-color: #2e2f42;
     margin: 120px;
-}
-.erste-teil-wrapper {
     padding: 188px 292px 472px 472px;
 }
 
+
 .titel-one {
-    font-weight: 700;
+    font-weight: 700px;
+    max-width: 496px;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -153,15 +154,18 @@ address {
 }
 
 .taste {
+    display: block;
+    min-width: 169px;
+    height: 56px;
      font-family: "Roboto",sans-serif;
-     width: 169px;
-     height: 56px;
      font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
+        border-radius: 4px;
         cursor: pointer;
         color: #fff;
+        border: none;
         background-color: #4d5ae5;
 }
 .taste:hover, .taste:focus {
@@ -179,7 +183,7 @@ padding-right: 156px;
 }
 
 .box-zweite-teil{
-    flex-basis: calc((100% - 72px) / 4);
+width: calc((100% - 72px) / 4);
 }
 
 .titel-zweite-teil {
