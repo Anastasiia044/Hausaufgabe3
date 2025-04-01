@@ -255,8 +255,6 @@ padding: 32px 0;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        background-color: #FFFFFF;
-        flex-basis: calc((100% - 52px) / 4);
 }
 
 .text-drite-teil {
@@ -266,6 +264,7 @@ padding: 32px 0;
         text-align: center;
         color: #434455;
 }
+
 .vierte-teil {
     padding-top: 120px;
     padding-bottom: 120px;
