@@ -233,14 +233,22 @@ width: calc((100% - 72px) / 4);
         margin: 0 auto;
         margin-bottom: 72px;
 }
+
+.driete-app-conteiner {
+padding: 32px 0;
+
+}
+
 .liste-drite-teil {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
+    text-align: center;
         padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
 }
 .titel-drei-teil {
+    margin-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -259,13 +267,15 @@ width: calc((100% - 72px) / 4);
         color: #434455;
 }
 .vierte-teil {
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .vierte-teil-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    margin-bottom: 72px;
 }
 
 .titel-vier {
@@ -280,9 +290,17 @@ width: calc((100% - 72px) / 4);
 }
 .vierte-list {
     display: flex;
+    width: calc((100% - 48px) / 3);
+}
+
+.vierte-app-conteiner {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .titel-vierte-teil {
+    margin-bottom: 8px;
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
