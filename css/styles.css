@@ -204,7 +204,7 @@ background-color: #404BBF;
 
 .box-zweite-teil{
     display: block;
-flex-basis: calc((100% - 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .titel-zweite-teil {
