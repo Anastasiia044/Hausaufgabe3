@@ -179,6 +179,11 @@ background-color: #404BBF;
     padding: 120px 0;
 }
 
+.zweite-contein {
+    padding-left: 156px;
+        padding-right: 156px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -195,8 +200,6 @@ background-color: #404BBF;
 .zweite-teil-list {
     display: flex;
     gap: 24px;
-padding-left: 156px;
-padding-right: 156px;
 }
 
 .box-zweite-teil{
