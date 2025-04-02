@@ -81,6 +81,8 @@ align-items: center;
 }
 .header-menu {
     display: flex;
+    align-items: center;
+    min-height: 48px;
     margin-left: auto;
     justify-content: flex-start;
     gap: 40px;
@@ -89,7 +91,7 @@ align-items: center;
 
 
 .header-menu-item {
-    display: flex;
+    display: block;
     padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
