@@ -28,6 +28,7 @@ background-color:#fff ;
     }
 
     img {
+        width: 100%;
         height: auto;
         display: block;
     }
@@ -146,6 +147,7 @@ address {
 
 .erste-teil {
     display: block;
+    text-align: center;
     background-color: #2e2f42;
     padding: 188px 0;
 }
@@ -166,6 +168,7 @@ address {
     display: block;
     min-width: 169px;
     height: 56px;
+    padding: 356px 0;
     justify-content: center;
     align-items: center;
      font-family: "Roboto",sans-serif;
