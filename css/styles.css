@@ -1,4 +1,5 @@
 body {
+    margin: 0;
 font-family: "Roboto", sans-serif;
 color:#434455 ;
 background-color:#fff ;
@@ -45,15 +46,14 @@ background-color:#fff ;
     }
 
     .container {
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
+        display: flex;
+        max-width: 1200px;
+        padding: 0 30px;
         margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
     }
     
-    .head-container {
-        display: flex;
-    }
     
 .accent {color: #2e2f42;} 
 .accent-two{color: #f4f4fd;}
@@ -116,6 +116,12 @@ align-items: center;
 address {
     font-style: normal;
 }
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .contacts-mail:hover{
     color: #404bbf;
 } 
@@ -131,10 +137,6 @@ address {
         color: #434455;
 }
 
-.header .container {
-    display: flex;
-    justify-content: space-between;
-}
 
 .contacts-list {
     display: flex;
@@ -289,8 +291,11 @@ padding: 32px 0;
 .vierte-teil-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 48px 24px;
     margin-bottom: 72px;
+    padding: 0;
+    list-style: none;
 }
 
 .titel-vier {
@@ -307,6 +312,8 @@ padding: 32px 0;
 .vierte-list {
     display: flex;
     width: calc((100% - 48px) / 3);
+    flex-direction: column;
+    align-items: center;
 }
 
 .vierte-app-conteiner {
