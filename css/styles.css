@@ -315,7 +315,6 @@ padding: 32px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 48px 24px;
     list-style: none;
 }
 
@@ -368,4 +367,5 @@ padding: 32px 0;
         color: #f4f4fd;
         width: 264px;
         height: 112px;
+        margin: 0;
 }
