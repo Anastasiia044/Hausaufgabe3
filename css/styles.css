@@ -321,7 +321,8 @@ padding: 32px 0;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    gap: 48px 24px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .vierte-list {
