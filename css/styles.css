@@ -50,13 +50,17 @@ background-color:#fff ;
     }
 
     .container {
-        display: flex;
         max-width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
         justify-content: space-between;
         align-items: center;
     }
+
+    .head-contein {
+            display: flex;
+        }
+        
     
     
 .accent {color: #2e2f42;} 
