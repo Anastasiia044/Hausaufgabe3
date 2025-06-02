@@ -321,13 +321,14 @@ padding: 32px 0;
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
+    gap: 48px 24px;
 }
 
 .vierte-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .vierte-app-conteiner {
