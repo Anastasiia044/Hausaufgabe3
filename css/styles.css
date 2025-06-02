@@ -50,6 +50,7 @@ background-color:#fff ;
     }
 
     .container {
+        display: flex;
         max-width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
