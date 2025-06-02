@@ -49,6 +49,7 @@ background-color:#fff ;
 
     .container {
         max-width: 1158px;
+        display: flex;
         padding: 0 15px;
         margin: 0 auto;
         justify-content: space-between;
@@ -242,6 +243,7 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 .titel-drei {
     font-weight: 700;
+    margin-bottom: 72px;
         font-size: 36px;
         text-align: center;
         text-transform: capitalize;
