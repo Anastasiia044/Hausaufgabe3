@@ -45,6 +45,8 @@ background-color:#fff ;
 
     .teil-header {
         border-bottom: 1px solid #e7e9fc;
+        padding-top: 24px;
+        padding-bottom: 24px;
     }
 
     .container {
@@ -60,10 +62,6 @@ background-color:#fff ;
 .accent {color: #2e2f42;} 
 .accent-two{color: #f4f4fd;}
 
-.header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 .header-novigation {
 display: flex;
@@ -85,7 +83,6 @@ align-items: center;
     display: flex;
     align-items: center;
     min-height: 48px;
-    margin-left: auto;
     justify-content: flex-start;
     gap: 40px;
         color: #2e2f42;
@@ -243,14 +240,13 @@ flex-basis: calc((100% - 3 * 24px) / 4);
 
 .titel-drei {
     font-weight: 700;
-    margin-bottom: 72px;
         font-size: 36px;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
         background-color: #FFFFFF;
         margin: 0 auto;
-        margin-bottom: 30px;
+        margin-bottom: 72px;
     }
 
  .drite-teil-list {
