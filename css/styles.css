@@ -45,8 +45,8 @@ background-color:#fff ;
 
     .teil-header {
         border-bottom: 1px solid #e7e9fc;
-        padding-top: 24px;
-        padding-bottom: 24px;
+        width: 1440px;
+        height: 72px;
     }
 
     .container {
@@ -81,7 +81,7 @@ align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        margin-right: 76px;
+        margin-right: 56px;
 }
 .header-menu {
     display: flex;
@@ -147,9 +147,6 @@ address {
 }
 
 .erste-teil {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     background-color: #2e2f42;
     padding: 188px 0;
@@ -173,6 +170,7 @@ address {
     height: 56px;
     padding: 16px 32px;
     margin: 48px 0;
+    text-align: center;
     justify-content: center;
     align-items: center;
      font-family: "Roboto",sans-serif;
@@ -194,8 +192,7 @@ background-color: #404BBF;
 }
 
 .zweite-contein {
-    padding-left: 156px;
-        padding-right: 156px;
+    
 }
 
 .visually-hidden {
@@ -214,6 +211,8 @@ background-color: #404BBF;
 .zweite-teil-list {
     display: flex;
     gap: 24px;
+    width: 1128px;
+    height: 224px;
 }
 
 .box-zweite-teil{
@@ -248,7 +247,6 @@ flex-basis: calc((100% - 3 * 24px) / 4);
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
-        background-color: #FFFFFF;
         margin: 0 auto;
         margin-bottom: 72px;
     }
@@ -260,7 +258,11 @@ flex-basis: calc((100% - 3 * 24px) / 4);
   }
 
 .driete-app-conteiner {
-padding: 32px 0;
+display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
 
 }
 
@@ -268,7 +270,6 @@ padding: 32px 0;
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     text-align: center;
-        padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
 }
@@ -278,7 +279,6 @@ padding: 32px 0;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 
@@ -286,7 +286,6 @@ padding: 32px 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #434455;
 }
 
@@ -333,11 +332,9 @@ padding: 32px 0;
 }
 
 .vierte-app-conteiner {
-    text-align: center;
     width: 360px;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
+
 }
 
 .titel-vierte-teil {
